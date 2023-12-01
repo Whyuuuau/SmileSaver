@@ -215,7 +215,7 @@ class SignUpPageActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        val intent = Intent(this, WelcomePageActivity::class.java)
+        val intent = Intent(this, WelcomeActivity::class.java)
         startActivity(intent)
         finish()
     }
