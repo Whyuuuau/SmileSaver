@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.toothscan.app-mergeDebugResources-54:/layout/activity_login_page.xml",
+        "source": "com.example.toothscan.app-main-57:/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "com.example.toothscan.app-mergeDebugResources-54:/layout/activity_welcome.xml",
+        "source": "com.example.toothscan.app-main-57:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.example.toothscan.app-mergeDebugResources-54:/layout/activity_sign_up_page.xml",
+        "source": "com.example.toothscan.app-main-57:/layout/activity_sign_up_page.xml"
+    }
+]

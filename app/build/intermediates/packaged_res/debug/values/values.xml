@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="color_primary">#146C94</color>
+    <color name="color_secondary">#FFF6F6</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Language_btn">Ganti Bahasa</string>
+    <string name="add_btn_galeri">Galeri</string>
+    <string name="add_btn_kamera">Kamera</string>
+    <string name="add_btn_upload">Upload</string>
+    <string name="add_con">Terimakasih telah membagikan cerita hidup kamu :)</string>
+    <string name="add_conerr">Coba cek lagi data kamu yaa!</string>
+    <string name="add_lokasiku">Lokasi</string>
+    <string name="add_tit">Upload Berhasil</string>
+    <string name="add_titerr">Upload Gagal</string>
+    <string name="add_widget">Tambahkan widget</string>
+    <string name="app_name">ToothScan</string>
+    <string name="app_widget_description">Ini adalah deskripsi widget aplikasi</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="detail_txt_artikel">Cerita Hidup</string>
+    <string name="detail_txt_name">Penulis</string>
+    <string name="item_btn_laoding">Coba Lagi</string>
+    <string name="item_txt_laoding">Waktu Habis</string>
+    <string name="language_con_dialog">Yakin ingin mengganti bahasa ?</string>
+    <string name="language_tit_dialog">Ganti Bahasa</string>
+    <string name="location_permission_denied">Izin Lokasi tidak diizinkan</string>
+    <string name="location_permission_denied_action">Ubah Pengaturan</string>
+    <string name="login_con_dialog">Mari ceritakan perjalanan hidup kamu!</string>
+    <string name="login_con_dialogerr">Coba cek lagi Email &amp; Password kamu yaa!</string>
+    <string name="login_desc">Lakukan login terlebih dahulu, ya.</string>
+    <string name="login_email">Email</string>
+    <string name="login_msg">Belum punya akun?</string>
+    <string name="login_password">Kata Sandi</string>
+    <string name="login_tit">Sudah siap untuk berbagi cerita?</string>
+    <string name="login_tit_dialog">Login Berhasil</string>
+    <string name="login_tit_dialogerr">Login Gagal</string>
+    <string name="logout_btn">Keluar</string>
+    <string name="logout_con">Yakin ingin melakukan Logout?</string>
+    <string name="logout_tit">Keluar</string>
+    <string name="regis_con_dialog">Akun berhasil dibuat!</string>
+    <string name="regis_con_dialogerr">Email sudah terdaftar!</string>
+    <string name="regis_tit_dialog">Registrasi Berhasil</string>
+    <string name="regis_tit_dialogerr">Registrasi Gagal</string>
+    <string name="signup_desc">Lengkapi data dirimu dulu, ya.</string>
+    <string name="signup_msg">Sudah punya akun?</string>
+    <string name="signup_name">Nama</string>
+    <string name="signup_tit">Belum punya akun?</string>
+    <string name="welcome_btn_1">Masuk</string>
+    <string name="welcome_btn_2">Daftar</string>
+    <string name="welcome_des">Selamat datang di Toothscan!
+
+    </string>
+    <string name="welcome_tit">Pengalaman Terbaik Periksa Gigi</string>
+    <style name="Base.Theme.ToothScan" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ToothScan" parent="Base.Theme.ToothScan"/>
+</resources>
