@@ -1,0 +1,313 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="bangkit.android.capstone11"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-feature
+11-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:5:5-7:35
+12        android:name="android.hardware.camera"
+12-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="true" />
+13-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:7:9-32
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:9:5-65
+15-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:10:5-67
+16-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+17-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:11:5-76
+17-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:11:22-73
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <permission
+32-->[androidx.core:core:1.9.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+33        android:name="bangkit.android.capstone11.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.9.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.9.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="bangkit.android.capstone11.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.9.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:13:5-75:19
+39        android:allowBackup="true"
+39-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:14:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.9.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:15:9-65
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:fullBackupContent="@xml/backup_rules"
+44-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:16:9-54
+45        android:icon="@mipmap/ic_launcher"
+45-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:17:9-43
+46        android:label="@string/app_name"
+46-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:18:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:19:9-54
+48        android:screenOrientation="portrait"
+48-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:20:9-45
+49        android:supportsRtl="true"
+49-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:21:9-35
+50        android:testOnly="true"
+51        android:theme="@style/Theme.Capstone11" >
+51-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:22:9-48
+52        <activity
+52-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:24:9-26:40
+53            android:name="bangkit.android.capstone11.ui.WelcomeActivity"
+53-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:25:13-47
+54            android:exported="false" />
+54-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:26:13-37
+55        <activity
+55-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:27:9-29:40
+56            android:name="bangkit.android.capstone11.ui.UpdateActivity"
+56-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:28:13-46
+57            android:exported="false" />
+57-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:29:13-37
+58        <activity
+58-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:30:9-32:40
+59            android:name="bangkit.android.capstone11.ui.NewsActivity"
+59-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:31:13-44
+60            android:exported="false" />
+60-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:32:13-37
+61        <activity
+61-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:33:9-35:40
+62            android:name="bangkit.android.capstone11.ui.SelectActivity"
+62-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:34:13-46
+63            android:exported="false" />
+63-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:35:13-37
+64        <activity
+64-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:36:9-38:40
+65            android:name="bangkit.android.capstone11.ui.ProfileActivity"
+65-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:37:13-47
+66            android:exported="false" />
+66-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:38:13-37
+67        <activity
+67-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:39:9-41:40
+68            android:name="bangkit.android.capstone11.ui.NearestDentistActivity"
+68-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:40:13-54
+69            android:exported="false" />
+69-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:41:13-37
+70        <activity
+70-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:42:9-44:40
+71            android:name="bangkit.android.capstone11.ui.HistoryActivity"
+71-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:43:13-47
+72            android:exported="false" />
+72-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:44:13-37
+73        <activity
+73-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:45:9-47:40
+74            android:name="bangkit.android.capstone11.ui.CheckUpResultActivity"
+74-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:46:13-53
+75            android:exported="false" />
+75-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:47:13-37
+76        <activity
+76-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:48:9-50:40
+77            android:name="bangkit.android.capstone11.ui.KidsListActivity"
+77-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:49:13-48
+78            android:exported="false" />
+78-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:50:13-37
+79        <activity
+79-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:51:9-53:40
+80            android:name="bangkit.android.capstone11.ui.KidsDataActivity"
+80-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:52:13-48
+81            android:exported="false" />
+81-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:53:13-37
+82        <activity
+82-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:54:9-56:40
+83            android:name="bangkit.android.capstone11.ui.AddKidsDataActivity"
+83-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:55:13-51
+84            android:exported="false" />
+84-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:56:13-37
+85        <activity
+85-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:57:9-59:40
+86            android:name="bangkit.android.capstone11.ui.HomePageActivity"
+86-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:58:13-48
+87            android:exported="false" />
+87-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:59:13-37
+88        <activity
+88-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:60:9-62:40
+89            android:name="bangkit.android.capstone11.ui.LoginPageActivity"
+89-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:61:13-49
+90            android:exported="false" />
+90-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:62:13-37
+91        <activity
+91-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:63:9-65:40
+92            android:name="bangkit.android.capstone11.ui.SignUpPageActivity"
+92-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:64:13-50
+93            android:exported="false" />
+93-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:65:13-37
+94        <activity
+94-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:66:9-74:20
+95            android:name="bangkit.android.capstone11.ui.SplashActivity"
+95-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:67:13-46
+96            android:exported="true" >
+96-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:68:13-36
+97            <intent-filter>
+97-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:69:13-73:29
+98                <action android:name="android.intent.action.MAIN" />
+98-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:70:17-69
+98-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:70:25-66
+99
+100                <category android:name="android.intent.category.LAUNCHER" />
+100-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:72:17-77
+100-->F:\WORK\BANGKIT\PROJECT CAPSTONE\Capstone\Mobile Development\app\src\main\AndroidManifest.xml:72:27-74
+101            </intent-filter>
+102        </activity>
+103
+104        <service
+104-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\WahyuAu\.gradle\caches\transforms-3\000e63ac9f076e00d60006f644ebdd08\transformed\room-runtime-2.5.0-alpha01\AndroidManifest.xml:26:9-30:63
+105            android:name="androidx.room.MultiInstanceInvalidationService"
+105-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\WahyuAu\.gradle\caches\transforms-3\000e63ac9f076e00d60006f644ebdd08\transformed\room-runtime-2.5.0-alpha01\AndroidManifest.xml:27:13-74
+106            android:directBootAware="true"
+106-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\WahyuAu\.gradle\caches\transforms-3\000e63ac9f076e00d60006f644ebdd08\transformed\room-runtime-2.5.0-alpha01\AndroidManifest.xml:28:13-43
+107            android:exported="false" />
+107-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\WahyuAu\.gradle\caches\transforms-3\000e63ac9f076e00d60006f644ebdd08\transformed\room-runtime-2.5.0-alpha01\AndroidManifest.xml:29:13-37
+108        <!--
+109        Service for holding metadata. Cannot be instantiated.
+110        Metadata will be merged from other manifests.
+111        -->
+112        <service
+112-->[androidx.camera:camera-core:1.4.0-alpha02] C:\Users\WahyuAu\.gradle\caches\transforms-3\1a89b1b2d646ccd87f0a70786bbad82e\transformed\camera-core-1.4.0-alpha02\AndroidManifest.xml:29:9-33:78
+113            android:name="androidx.camera.core.impl.MetadataHolderService"
+113-->[androidx.camera:camera-core:1.4.0-alpha02] C:\Users\WahyuAu\.gradle\caches\transforms-3\1a89b1b2d646ccd87f0a70786bbad82e\transformed\camera-core-1.4.0-alpha02\AndroidManifest.xml:30:13-75
+114            android:enabled="false"
+114-->[androidx.camera:camera-core:1.4.0-alpha02] C:\Users\WahyuAu\.gradle\caches\transforms-3\1a89b1b2d646ccd87f0a70786bbad82e\transformed\camera-core-1.4.0-alpha02\AndroidManifest.xml:31:13-36
+115            android:exported="false" >
+115-->[androidx.camera:camera-core:1.4.0-alpha02] C:\Users\WahyuAu\.gradle\caches\transforms-3\1a89b1b2d646ccd87f0a70786bbad82e\transformed\camera-core-1.4.0-alpha02\AndroidManifest.xml:32:13-37
+116            <meta-data
+116-->[androidx.camera:camera-camera2:1.4.0-alpha02] C:\Users\WahyuAu\.gradle\caches\transforms-3\d2990f0a8128e72ed1fae5c8e54acefc\transformed\camera-camera2-1.4.0-alpha02\AndroidManifest.xml:30:13-32:89
+117                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+117-->[androidx.camera:camera-camera2:1.4.0-alpha02] C:\Users\WahyuAu\.gradle\caches\transforms-3\d2990f0a8128e72ed1fae5c8e54acefc\transformed\camera-camera2-1.4.0-alpha02\AndroidManifest.xml:31:17-103
+118                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+118-->[androidx.camera:camera-camera2:1.4.0-alpha02] C:\Users\WahyuAu\.gradle\caches\transforms-3\d2990f0a8128e72ed1fae5c8e54acefc\transformed\camera-camera2-1.4.0-alpha02\AndroidManifest.xml:32:17-86
+119        </service> <!-- Needs to be explicitly declared on P+ -->
+120        <uses-library
+120-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+121            android:name="org.apache.http.legacy"
+121-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+122            android:required="false" />
+122-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\WahyuAu\.gradle\caches\transforms-3\687cb8ab7b07f871c51974e2ecc42a53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\WahyuAu\.gradle\caches\transforms-3\72cfbc7428b42cf8d4dfbd09a9987027\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\WahyuAu\.gradle\caches\transforms-3\72cfbc7428b42cf8d4dfbd09a9987027\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\WahyuAu\.gradle\caches\transforms-3\72cfbc7428b42cf8d4dfbd09a9987027\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\WahyuAu\.gradle\caches\transforms-3\72cfbc7428b42cf8d4dfbd09a9987027\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+128
+129        <meta-data
+129-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\5dd3ea063ca3e58b5901dad3ea595add\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+130            android:name="com.google.android.gms.version"
+130-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\5dd3ea063ca3e58b5901dad3ea595add\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+131            android:value="@integer/google_play_services_version" />
+131-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\5dd3ea063ca3e58b5901dad3ea595add\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+132
+133        <provider
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+134            android:name="androidx.startup.InitializationProvider"
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+135            android:authorities="bangkit.android.capstone11.androidx-startup"
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+136            android:exported="false" >
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+137            <meta-data
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+139                android:value="androidx.startup" />
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\WahyuAu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\WahyuAu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\WahyuAu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+143            <meta-data
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+144                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+145                android:value="androidx.startup" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+146        </provider>
+147
+148        <receiver
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+149            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+150            android:directBootAware="false"
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+151            android:enabled="true"
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+152            android:exported="true"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+153            android:permission="android.permission.DUMP" >
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+154            <intent-filter>
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+155                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+156            </intent-filter>
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+158                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+161                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+162            </intent-filter>
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+164                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\WahyuAu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+165            </intent-filter>
+166        </receiver>
+167
+168        <provider
+168-->[com.squareup.picasso:picasso:2.71828] C:\Users\WahyuAu\.gradle\caches\transforms-3\80ea36d4bdcab67215b75a3e8445f969\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+169            android:name="com.squareup.picasso.PicassoProvider"
+169-->[com.squareup.picasso:picasso:2.71828] C:\Users\WahyuAu\.gradle\caches\transforms-3\80ea36d4bdcab67215b75a3e8445f969\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+170            android:authorities="bangkit.android.capstone11.com.squareup.picasso"
+170-->[com.squareup.picasso:picasso:2.71828] C:\Users\WahyuAu\.gradle\caches\transforms-3\80ea36d4bdcab67215b75a3e8445f969\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+171            android:exported="false" />
+171-->[com.squareup.picasso:picasso:2.71828] C:\Users\WahyuAu\.gradle\caches\transforms-3\80ea36d4bdcab67215b75a3e8445f969\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+172    </application>
+173
+174</manifest>
