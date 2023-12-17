@@ -22,6 +22,9 @@ class ViewModelFactory(
             modelClass.isAssignableFrom(CameraViewModel::class.java) -> {
                 CameraViewModel(repository) as T
             }
+            modelClass.isAssignableFrom(UpdateViewModel::class.java) -> {
+                UpdateViewModel(repository) as T
+            }
             else -> throw IllegalArgumentException("Unknown ViewModel class: " + modelClass.name)
         }
     }

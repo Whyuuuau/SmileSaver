@@ -30,13 +30,14 @@
 
     <string name="nearest_dentist">Dokter gigi terdekat</string>
 
-    <string name="welcome_tit">Selamat datang di Toothscan!</string>
+    <string name="welcome_tit">Selamat datang di SmileSaver!</string>
     <string name="welcome_des">Pengalaman terbaik Periksa Gigi</string>
     <string name="welcome_btn_1">Masuk</string>
     <string name="welcome_btn_2">Daftar</string>
 
     <string name="login_msg">Belum punya akun?</string>
-    <string name="login_email">Email</string>
+    <string name="login_email">Username</string>
+    <string name="login_email2">Email</string>
     <string name="login_password">Kata Sandi</string>
     <string name="login_tit">Sudah Siap Untuk Periksa Gigimu?</string>
     <string name="login_desc">Lakukan login terlebih dahulu, ya.</string>
@@ -73,6 +74,14 @@
 
     <string name="check_ui">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
 
+    <string name="update_profil">Update Profil</string>
+    <string name="update_username">Username Baru</string>
+    <string name="update_tit_dialog">Update berhasil</string>
+    <string name="update_con_dialog">Profile berhasil Di Update!</string>
+    <string name="update_tit_dialogerr">Update Gagal</string>
+    <string name="update_con_dialogerr">Coba cek lagi Username Kamu!</string>
+
+
     <string name="imgDesc">Image</string>
     <string name="scanresult">Scan Result</string>
     <string name="camera">Camera</string>
@@ -83,7 +92,7 @@
     <string name="uploadt2">Something Went Wrong</string>
     <string name="uploads">Success</string>
     <string name="uploadt">Upload Successfully\n</string>
-    
+
     <string name="check_up">Periksa gigi</string>
     <string name="app_suggestion">Kami menyarankan untuk melakukan crop gambar atau mengambil gambar pada bagian gigi yang dirasa bermasalah untuk menghasilkan akurasi yang lebih tinggi</string>
     <string name="suggestion_karies">
@@ -122,7 +131,7 @@
         \n
         Anda juga bisa menemui dokter gigi terdekat kok untuk mendapatkan best practice recommendation
     </string>
-    
+
     <string-array name="data_name_nearest_dentist">
         <item>B Fresh Dokter Gigi</item>
         <item>Drg Ida Bagus Narmada</item>

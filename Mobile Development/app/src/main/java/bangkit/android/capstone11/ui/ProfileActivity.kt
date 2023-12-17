@@ -31,6 +31,9 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun setupAction() {
+        binding.btnEdit.setOnClickListener {
+            startActivity(Intent(this, UpdateActivity::class.java))
+        }
         binding.btnLogout.setOnClickListener {
             dialogLogout()
         }
@@ -67,7 +70,7 @@ class ProfileActivity : AppCompatActivity() {
             setMessage(R.string.logout_con)
             setCancelable(false)
             setPositiveButton("Ok") { _, _ ->
-                preferences.setToken(null)
+                preferences.setToken("")
                 startActivity(Intent(this@ProfileActivity, WelcomeActivity::class.java))
                 finish()
             }

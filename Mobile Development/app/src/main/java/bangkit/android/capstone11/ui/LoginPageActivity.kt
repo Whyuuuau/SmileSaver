@@ -128,6 +128,7 @@ class LoginPageActivity : AppCompatActivity() {
         edLoginPassword.setSelection(edLoginPassword.text.length)
     }
 
+    // email adalah username
     private fun login() {
         val email = binding.edLoginEmail.text.toString()
         val password = binding.edLoginPassword.text.toString()
@@ -143,15 +144,15 @@ class LoginPageActivity : AppCompatActivity() {
                         val data = response.data
                         val intent = Intent(this@LoginPageActivity, HomePageActivity::class.java)
                         showSuccessDialog()
-                        preferences.setID(data.id)
+                        preferences.setID(data.id.toString())
                         preferences.setToken(data.accessToken)
                         preferences.setEmail(data.email)
                         preferences.setUsername(data.username)
-                        Log.d("success", data.accessToken)
+                        Log.d("success", data.id.toString())
                         startActivity(intent)
                     }
                     is ResultResource.Error -> {
-//                        binding.progressBar.hide()
+                        binding.progressBar.hide()
                         Log.d("error", response.error)
                         showErrorDialog()
                     }

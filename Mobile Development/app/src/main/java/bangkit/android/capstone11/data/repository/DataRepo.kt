@@ -7,13 +7,10 @@ import bangkit.android.capstone11.data.ResultResource
 import bangkit.android.capstone11.data.Results
 import bangkit.android.capstone11.data.api_manager.ApiService
 import bangkit.android.capstone11.data.api_manager.api_response.LoginResponse
-import bangkit.android.capstone11.data.api_manager.api_response.MockUser
-import bangkit.android.capstone11.data.api_manager.api_response.RegisterResult
+import bangkit.android.capstone11.data.api_manager.api_response.RegisterResponse
 import bangkit.android.capstone11.data.api_manager.api_response.ScanResponse
-import okhttp3.Call
+import bangkit.android.capstone11.data.api_manager.api_response.UpdateResponse
 import okhttp3.MultipartBody
-import retrofit2.Callback
-import retrofit2.Response
 
 class DataRepo(
     private val apiService: ApiService
@@ -22,7 +19,7 @@ class DataRepo(
         name: String,
         email: String,
         pass: String
-    ): LiveData<ResultResource<RegisterResult>> = liveData {
+    ): LiveData<ResultResource<RegisterResponse>> = liveData {
         emit(ResultResource.Loading)
         try {
             val response = apiService.register(name, email, pass)
@@ -40,6 +37,17 @@ class DataRepo(
             emit(ResultResource.Success(response))
         } catch (e: Exception) {
             Log.d("login", e.message.toString())
+            emit(ResultResource.Error(e.message.toString()))
+        }
+    }
+
+    fun update(id: String, username: String, email: String): LiveData<ResultResource<UpdateResponse>> = liveData {
+        emit(ResultResource.Loading)
+        try {
+            val response = apiService.Update(id, username, email)
+            emit(ResultResource.Success(response))
+        } catch (e: Exception) {
+            Log.d("Update", e.message.toString())
             emit(ResultResource.Error(e.message.toString()))
         }
     }

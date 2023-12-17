@@ -143,7 +143,7 @@
         android:layout_marginTop="8dp"
         android:alpha="0"
         android:fontFamily="@font/nunito_regular"
-        android:text="@string/login_email"
+        android:text="@string/login_email2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signup_inpt_name"
         tools:alpha="100" />
@@ -315,7 +315,7 @@
         android:layout_marginTop="16dp"
         android:alpha="0"
         android:fontFamily="@font/nunito_regular"
-        android:text="@string/signup_name"
+        android:text="@string/login_email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
         tools:alpha="100" />

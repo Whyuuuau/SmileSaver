@@ -53,14 +53,14 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/iv_avatar"
+                android:id="@+id/iniavatar"
                 android:layout_width="124dp"
                 android:layout_height="124dp"
                 android:layout_marginStart="12dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:src="@drawable/ic_boy"/>
+                android:src="@drawable/ic_boy"/>
 
             <TextView
                 android:id="@+id/ava_user"
@@ -72,8 +72,8 @@
                 android:textSize="16sp"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="14dp"
-                app:layout_constraintStart_toEndOf="@id/iv_avatar"
-                app:layout_constraintTop_toTopOf="@id/iv_avatar" />
+                app:layout_constraintStart_toEndOf="@id/iniavatar"
+                app:layout_constraintTop_toTopOf="@id/iniavatar" />
 
             <TextView
                 android:id="@+id/ava_email_user"
@@ -84,7 +84,7 @@
                 android:textSize="16sp"
                 android:layout_marginTop="12dp"
                 android:layout_marginStart="12dp"
-                app:layout_constraintStart_toEndOf="@id/iv_avatar"
+                app:layout_constraintStart_toEndOf="@id/iniavatar"
                 app:layout_constraintTop_toBottomOf="@id/ava_user"
                 />
 
@@ -95,7 +95,7 @@
 
 
     <Button
-        android:id="@+id/btn_history"
+        android:id="@+id/btn_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/dark_blue"
@@ -120,6 +120,6 @@
         android:layout_marginEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_history"  />
+        app:layout_constraintTop_toBottomOf="@id/btn_edit"  />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
