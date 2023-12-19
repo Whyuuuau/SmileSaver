@@ -26,7 +26,7 @@ This App is still on Development Stage
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Black | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
-| White | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| White | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #FFFFFF |
 | Light Blue | ![#19A7CE](https://via.placeholder.com/10/19A7CE?text=+) #19A7CE |
 | Dark Blue | ![#146C94](https://via.placeholder.com/10/146C94?text=+) #146C94 |
 

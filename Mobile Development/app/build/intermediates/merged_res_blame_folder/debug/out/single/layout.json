@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_home_page.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_kids_data.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_kids_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_add_kids_data.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_add_kids_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_login_page.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_sign_up_page.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_sign_up_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_check_up_result.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_check_up_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_kids_list.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_kids_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\item_dentist_list.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\item_dentist_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_history.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "bangkit.android.capstone11.app-mergeDebugResources-55:/layout/activity_profile.xml",
+        "source": "bangkit.android.capstone11.app-main-58:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_update.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_nearest_dentist.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_nearest_dentist.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\item_kids_list.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\item_kids_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_select.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_news.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-mergeDebugResources-55:\\layout\\activity_camera.xml",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_camera.xml"
+    }
+]

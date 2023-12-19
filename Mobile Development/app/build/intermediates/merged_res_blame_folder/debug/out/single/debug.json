@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_img_login.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\img_login.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_kids_data.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_kids_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist4.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_baseline_account_box_24.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_baseline_account_box_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_news.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_boy.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_boy.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_slider1.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\slider1.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_berita3.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\berita3.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_add_photo.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_add_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_item_kids_list.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\item_kids_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_item_dentist_list.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\item_dentist_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_top_bar.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\top_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\font_nunito_bold.ttf.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\font\\nunito_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_baseline_close_24.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\baseline_close_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_back_blue.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_back_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_login_page.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_camera.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_check_up_result.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_check_up_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist1.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\font_nunito_regular.ttf.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\font\\nunito_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_visible.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_visible.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\font_nunito_medium.ttf.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\font\\nunito_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist10.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist10.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\font_nunito_semibold.ttf.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\font\\nunito_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist8.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist8.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_nearest_dentist.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_nearest_dentist.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_invisible.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_invisible.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_img_signup.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\img_signup.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_baseline_switch_24.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\baseline_switch_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_bg_color_input.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\bg_color_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist5.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist2.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_slider3.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\slider3.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_sign_up_page.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_sign_up_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_select.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist9.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist9.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_berita2.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\berita2.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_update.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_add_kids_data.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_add_kids_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_nearest_dentist.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_nearest_dentist.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_checkup.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_checkup.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_img_welcome.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\img_welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_edit_text.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_kids_list.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_kids_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\font_nunito_light.ttf.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\font\\nunito_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist6.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist6.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_img_splash.gif.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\img_splash.gif"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_home_page.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_slider2.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\slider2.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_girl.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_girl.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_berita1.png.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\berita1.png"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist3.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_item_selector.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\item_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_dentist7.jpg.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\dentist7.jpg"
+    },
+    {
+        "merged": "bangkit.android.capstone11.app-merged_res-56:/layout_activity_profile.xml.flat",
+        "source": "bangkit.android.capstone11.app-main-58:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-merged_res-56:\\drawable_camera_button_24.xml.flat",
+        "source": "C:\\Users\\WahyuAu\\.gradle\\daemon\\8.0\\bangkit.android.capstone11.app-main-58:\\drawable\\camera_button_24.xml"
+    }
+]
