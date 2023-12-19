@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">SmileSaver</string>
+
+    <string name="add_kids_data">Tambah data anak</string>
+    <string name="full_name">Nama lengkap</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="female">Perempuan</string>
+    <string name="male">Laki-laki</string>
+    <string name="age">Umur</string>
+    <string name="address">Kota tempat tinggal</string>
+    <string name="toothbrush_frequency">Frekuensi menyikat gigi (per hari)</string>
+    <string name="save">Simpan</string>
+
+    <string name="kids_data">Data anak</string>
+    <string name="tooth_scan">Pemeriksaan gigi</string>
+    <string name="history">Riwayat pemeriksaan</string>
+
+    <string name="checkup_history_list">Daftar riwayat pemeriksaan</string>
+    <string name="new_checkup">Buat pemeriksaan baru</string>
+
+    <string name="checkup_result">Hasil pemeriksaaan</string>
+    <string name="tooth_condition">Kondisi gigi</string>
+    <string name="result_isCavity">Gigi Berlubang</string>
+    <string name="result_isCaries">Gigi Karies</string>
+    <string name="result_isHealth">Gigi Sehat</string>
+    <string name="accuracy">Akurasi</string>
+    <string name="suggestion">Saran perawatan gigi dari kami</string>
+
+    <string name="shorten_toothbrush_frequency">FMG (/hari)</string>
+
+    <string name="nearest_dentist">Dokter gigi terdekat</string>
+
+    <string name="welcome_tit">Selamat datang di SmileSaver!</string>
+    <string name="welcome_des">Pengalaman terbaik Periksa Gigi</string>
+    <string name="welcome_btn_1">Masuk</string>
+    <string name="welcome_btn_2">Daftar</string>
+
+    <string name="login_msg">Belum punya akun?</string>
+    <string name="login_email">Username</string>
+    <string name="login_email2">Email</string>
+    <string name="login_password">Kata Sandi</string>
+    <string name="login_tit">Sudah Siap Untuk Periksa Gigimu?</string>
+    <string name="login_desc">Lakukan login terlebih dahulu, ya.</string>
+    <string name="login_tit_dialog">Login Berhasil</string>
+    <string name="login_con_dialog">Mari Mulai Perjalanan Kesehatan Gigi Kamu!</string>
+    <string name="login_tit_dialogerr">Login Gagal</string>
+    <string name="login_con_dialogerr">Coba cek lagi Email &amp; Password kamu yaa!</string>
+
+    <string name="home_usr">Mirreu</string>
+    <string name="home_email_usr">Mirreu@gmail.com</string>
+    <string name="home_berita">Berita</string>
+    <string name="home_scan">Periksa gigimu sekarang</string>
+
+    <string name="profil">Profile Anda</string>
+    <string name="profil_user">Mirreu</string>
+    <string name="profil_umur">20</string>
+    <string name="profil_email">Email</string>
+    <string name="profil_btn_1">Edit Foto Profil</string>
+    <string name="profil_btn_2">Edit Username</string>
+    <string name="profil_btn_3">Edit data</string>
+    <string name="profil_btn_4">Log Out</string>
+
+    <string name="logout_con">Yakin ingin melakukan Logout?</string>
+    <string name="logout_tit">Keluar</string>
+
+    <string name="signup_tit">Belum punya akun?</string>
+    <string name="signup_desc">Lengkapi data dirimu dulu, ya.</string>
+    <string name="signup_name">Nama</string>
+    <string name="signup_msg">Sudah punya akun?</string>
+    <string name="regis_tit_dialog">Registrasi Berhasil</string>
+    <string name="regis_con_dialog">Akun berhasil dibuat!</string>
+    <string name="regis_tit_dialogerr">Registrasi Gagal</string>
+    <string name="regis_con_dialogerr">Email sudah terdaftar!</string>
+
+    <string name="check_ui">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <string name="update_profil">Update Profil</string>
+    <string name="update_username">Username Baru</string>
+    <string name="update_tit_dialog">Update berhasil</string>
+    <string name="update_con_dialog">Profile berhasil Di Update!</string>
+    <string name="update_tit_dialogerr">Update Gagal</string>
+    <string name="update_con_dialogerr">Coba cek lagi Username Kamu!</string>
+
+
+    <string name="imgDesc">Image</string>
+    <string name="scanresult">Scan Result</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="hasil_scan">Hasil:</string>
+    <string name="akurasi_scan">Akurasi:</string>
+    <string name="uploads2">Upload Failed</string>
+    <string name="uploadt2">Something Went Wrong</string>
+    <string name="uploads">Success</string>
+    <string name="uploadt">Upload Successfully\n</string>
+
+    <string name="check_up">Periksa gigi</string>
+    <string name="app_suggestion">Kami menyarankan untuk melakukan crop gambar atau mengambil gambar pada bagian gigi yang dirasa bermasalah untuk menghasilkan akurasi yang lebih tinggi</string>
+    <string name="suggestion_karies">
+        Kami merekomendasikan untuk menerapkan kebiasaan perawatan mulut yang baik untuk mencegah karies gigi, seperti:
+        \n
+        1. Menyikat gigi secara teratur
+        \n
+        2. Menggunakan benang gigi
+        \n
+        3. Menghindari konsumsi gula berlebihan
+        \n
+        \n
+        Untuk perawatan yang lebih optimal, kami juga menyarankan untuk melakukan pembersihan plak dan karang gigi serta penambalan gigi. Anda bisa langsung pergi ke doktergigi terdekat untuk melakukannya.
+    </string>
+    <string name="suggestion_berlubang">
+        Kami merekomendasikan anda untuk segera pergi ke dokter gigi terdekat. Berikut kami berikan beberapa gambaran perawatan yang mungkin akan anda dapatkan di dokter gigi:
+        \n
+        \n
+        Pemasangan mahkota(crown): Ketika gigi berlubang lebih dalam dan merusak struktur gigi secara signifikan, mahkota dipasang sebagai lapisan penutup gigi untuk melindungi dan memperkuat gigi yang telah diobati.
+        \n
+        \n
+        Perawatan Akar: Jika gigi berlubang telah mencapai pulpa gigi (jaringan di dalam gigi yang berisi pembuluh darah dan saraf), perawatan akar mungkin diperlukan. Ini melibatkan pengangkatan pulpa yang terinfeksi, membersihkan saluran akar, dan menutupnya kembali.
+        \n
+        \n
+        Ekstraksi: Jika gigi sangat rusak dan tidak dapat diselamatkan dengan perawatan lainnya, dokter gigi mungkin merekomendasikan untuk mencabut gigi tersebut.
+    </string>
+    <string name="suggestion_sehat">
+        Untuk mempertahankan kondisi gigi sehat kami menyarankan untuk menerapkan kebiasaan perawatan mulut yang baik, seperti:
+        \n
+        1. Menyikat gigi secara teratur
+        \n
+        2. Menggunakan benang gigi
+        \n
+        3. Menghindari konsumsi gula berlebihan
+        \n
+        \n
+        Anda juga bisa menemui dokter gigi terdekat kok untuk mendapatkan best practice recommendation
+    </string>
+
+    <string-array name="data_name_nearest_dentist">
+        <item>B Fresh Dokter Gigi</item>
+        <item>Drg Ida Bagus Narmada</item>
+        <item>Drg Anna Riyani</item>
+        <item>Drg Endah P. Lubis</item>
+        <item>Drg Kristanto</item>
+        <item>Teeth Tooth Dental Merr</item>
+        <item>Gig Dental Care</item>
+        <item>First Dental Studio</item>
+        <item>Private Dentist</item>
+        <item>Virginia Gigi</item>
+    </string-array>
+
+    <string-array name="data_address_nearest_dentist">
+        <item>Jl. Klampis Semolo No. 6D, Sukolilo, Surabaya</item>
+        <item>Jl. Rungkut Asri Timur No. 53, Rungkut, Surabaya</item>
+        <item>Jl. I Gusti Ngurah Rai No. 9, Gunung Anyar, Surabaya</item>
+        <item>Jl. Rungkut Asri Timur, Medokan Ayu, Surabaya</item>
+        <item>Jl. Rungkut Madya No. 85, Rungkut, Surabaya</item>
+        <item>Jl. I Gusti Ngurah Rai No. 43, Gunung Anyar, Surabaya</item>
+        <item>Jl. Rungkut Mapan tengah, Gunung Anyar, Surabaya</item>
+        <item>Jl. I Gusti Ngurah Rai, Ruko Purimas, Gunung Anyar, Surabaya</item>
+        <item>Jl. Rungkut Asri, Kali Rungkut, Surabaya</item>
+        <item>Jl. Gunung Anyar Lor No. 50, Gunung Anyar, Surabaya</item>
+    </string-array>
+
+    <integer-array name="data_image_nearest_dentist">
+        <item>@drawable/dentist1</item>
+        <item>@drawable/dentist2</item>
+        <item>@drawable/dentist3</item>
+        <item>@drawable/dentist4</item>
+        <item>@drawable/dentist5</item>
+        <item>@drawable/dentist6</item>
+        <item>@drawable/dentist7</item>
+        <item>@drawable/dentist8</item>
+        <item>@drawable/dentist9</item>
+        <item>@drawable/dentist10</item>
+    </integer-array>
+
+    <string name="news1_name">Cek di sini untuk tips dan trik merawat gigi!</string>
+    <string name="news1_title">Tips dan Trik Merawat Gigi</string>
+    <string name="news1">
+        1. Rajin menyikat gigi
+        \n
+        Menyikat gigi dilakukan untuk membersihkan sisa-sisa makanan yang menempel pada gigi. Dengan rajin menyikat gigi dapat membuat gigi anda bersih dan sehat, serta menyegarkan mulut. Dianjurkan untuk rutin menyikat gigi minimal 2 kali sehari yaitu pada pagi hari setelah sarapan dan malam hari sebelum tidur. Gunakan pasta gigi mengandung fluoride untuk memperkuat gigi dan mencegah gigi berlubang. Perlu anda ketahui syarat sikat gigi yang baik adalah tangkai sikat gigi yang lurus agar mudah dipegang, kepala sikat gigi tidak terlalu besar agar dapat menjangkau seluruh permukaan gigi dan bulu sikat gigi yang lembut, serta permukaan bulu sikatnya rata.
+        \n\n
+        2. Konsumsi buah-buahan dan sayur-sayuran
+        \n
+        Mengkonsumsi buah-buahan dan sayur-sayuran sangat baik untuk kesehatan gigi dan mulut. Kandungan buah dan sayuran yang berserat dan berair dapat menjaga kesehatan gigi dan mulut. Contoh buah-buahan seperti buah apel, pir, semangka, jeruk, dan lainnya. Kemudian contoh sayuran seperti sawi, brokoli, bayam, wortel dan lain sebagainya.
+        \n\n
+        3. Minum Air Putih yang Cukup
+        \n
+        Minum air putih sangat baik untuk kesehatan tubuh termasuk kesehatan gigi dan mulut. Dengan minum air putih dapat membantu membersihkan dan meluruhkan sisa makanan yang menempel di permukaan gigi. Maka anda harus rutin minum air putih setiap harinya.
+        \n\n
+        4. Kurangi makanan manis dan melekat
+        \n
+        Memelihara kesehatan gigi dan mulut dapat dilakukan juga dengan mengurangi atau membatasi konsumsi makanan manis dan melekat karena jika mengkonsumsi secara berlebihan dapat menyebabkan gigi rusak atau berlubang. Contoh makanan manis dan melekat seperti coklat, permen, es krim, kue, dan lain sebagainya.
+        \n\n
+        5. Rutin periksa gigi ke dokter gigi
+        \n
+        Periksakan gigi secara rutin ke dokter gigi minimal 6 bulan sekali untuk mendeteksi lebih awal kondisi gigi dan mulut anda. Jika ada masalah pada gigi, gusi maupun rongga mulut dapat segera diatasi, sehingga anda dapat menjaga kesehatan gigi dan mulutnya.
+    </string>
+
+    <string name="news2_name">Kepoin profesi dokter gigi yuk!</string>
+    <string name="news2_title">Mengenal Dokter Gigi Indonesia</string>
+    <string name="news2">
+        Dokter gigi, atau dokter gigi dan mulut, adalah profesional medis yang berfokus pada pencegahan, diagnosis, dan pengobatan masalah kesehatan gigi dan mulut. Mereka memiliki pengetahuan mendalam tentang struktur gigi, gusi, dan rahang, serta keterampilan untuk memberikan perawatan yang diperlukan guna memastikan kesehatan oral dan umum.
+        \n\n
+        Proses pendidikan dokter gigi melibatkan program sarjana di bidang kedokteran gigi, yang mencakup studi tentang anatomi mulut, patologi gigi, radiologi, dan prosedur klinis. Setelah lulus, mereka mengikuti praktik klinis di bawah bimbingan seorang mentor sebelum memperoleh lisensi praktik yang sah.
+        \n\n
+        Peran dokter gigi melibatkan pencegahan dan penanganan berbagai kondisi mulai dari pembersihan gigi rutin dan penambalan hingga perawatan restoratif seperti akar gigi dan pemasangan gigi palsu. Dokter gigi juga memiliki peran dalam memberikan edukasi kepada pasien tentang kebiasaan perawatan mulut yang baik serta melakukan pemeriksaan rutin untuk mendeteksi masalah kesehatan lebih awal.
+        \n\n
+        Hubungan pasien-dokter adalah aspek krusial dalam praktek dokter gigi. Komunikasi yang baik dan pemahaman terhadap kebutuhan serta kekhawatiran pasien membantu menciptakan lingkungan yang nyaman dan mendukung. Dokter gigi juga bekerja sama dengan tim kesehatan untuk menyediakan perawatan holistik yang melibatkan berbagai aspek kesehatan.
+        \n\n
+        Sejalan dengan kemajuan ilmu pengetahuan dan teknologi, dokter gigi terus memperbarui pengetahuan dan keterampilan mereka melalui pendidikan berkelanjutan. Mereka terlibat dalam seminar, konferensi, dan workshop untuk tetap mendapatkan wawasan terbaru dalam bidang kedokteran gigi. Dengan komitmen untuk memberikan perawatan berkualitas, dokter gigi berperan penting dalam menjaga kesehatan gigi dan mulut komunitas mereka.
+    </string>
+
+    <string name="news3_name">Yuk kenalan dengan tim SmileSaver!</string>
+    <string name="news3_title">SmileSaver Team</string>
+    <string name="news3">
+        Halo teman-teman, kenalin kami adalah tim developer dari SmileSaver!
+        \n\n
+        Kami adalah mahasiswa dari beragam daerah yang tergabung menjadi satu tim di Bangkit Academy 2023.
+        \n\n
+        SmileSaver adalah inovasi kami untuk menjaga senyuman-senyuman manis semua anak di Indonesia, serta membantu kalian dalam merawat dan menjaga kesehatan gigi melalui teknologi.
+        \n\n
+        Komitmen kami adalah untuk terus mengembangkan SmileSaver sebagai aplikasi dental assisstant terbaik di Indonesia!
+    </string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Capstone11"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.NearestDentistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CheckUpResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.KidsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.KidsDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AddKidsDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.HomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SignUpPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
