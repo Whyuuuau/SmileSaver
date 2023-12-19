@@ -56,18 +56,18 @@ class NearestDentistActivity : AppCompatActivity() {
         bottomBar.setOnNavigationItemSelectedListener { item ->
             when(item.itemId) {
                 R.id.navigation_home -> {
-                    startActivity(Intent(this@NearestDentistActivity, MainActivity::class.java))
+                    startActivity(Intent(this@NearestDentistActivity, HomePageActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_checkup -> {
-                    startActivity(Intent(this@NearestDentistActivity, KidsListActivity::class.java))
+                    startActivity(Intent(this@NearestDentistActivity, AddKidsDataActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_nearest_dentist -> {
                     return@setOnNavigationItemSelectedListener false
                 }
                 R.id.navigation_profile -> {
-                    //implementasi ke profile
+                    startActivity(Intent(this@NearestDentistActivity, ProfileActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 else -> return@setOnNavigationItemSelectedListener false

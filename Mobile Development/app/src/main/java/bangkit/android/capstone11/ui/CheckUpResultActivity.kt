@@ -17,7 +17,7 @@ class CheckUpResultActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //bottomBack
-        binding.btnNearestDentist.setOnClickListener {navigateActivity(KidsListActivity::class.java)}
+        binding.btnNearestDentist.setOnClickListener {navigateActivity(AddKidsDataActivity::class.java)}
 
         //card
         cardSetup()
@@ -74,11 +74,11 @@ class CheckUpResultActivity : AppCompatActivity() {
         bottomBar.setOnNavigationItemSelectedListener { item ->
             when(item.itemId) {
                 R.id.navigation_home -> {
-                    startActivity(Intent(this@CheckUpResultActivity, MainActivity::class.java))
+                    startActivity(Intent(this@CheckUpResultActivity, HomePageActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_checkup -> {
-                    startActivity(Intent(this@CheckUpResultActivity, KidsListActivity::class.java))
+                    startActivity(Intent(this@CheckUpResultActivity, AddKidsDataActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_nearest_dentist -> {
@@ -86,7 +86,7 @@ class CheckUpResultActivity : AppCompatActivity() {
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_profile -> {
-                    //intent ke profile
+                    startActivity(Intent(this@CheckUpResultActivity, ProfileActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 else -> return@setOnNavigationItemSelectedListener false
@@ -94,7 +94,7 @@ class CheckUpResultActivity : AppCompatActivity() {
         }
     }
 
-    fun navigateActivity(targetActivity: Class<*>) {
+    private fun navigateActivity(targetActivity: Class<*>) {
         val intent = Intent(this@CheckUpResultActivity, targetActivity)
         startActivity(intent)
     }

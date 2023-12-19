@@ -184,7 +184,7 @@ class SignUpPageActivity : AppCompatActivity() {
                 is ResultResource.Success -> {
                     binding.progressBar.hide()
                     showSuccessDialog()
-                    startActivity(Intent(this, HomePageActivity::class.java))
+                    startActivity(Intent(this, LoginPageActivity::class.java))
                 }
 
                 is ResultResource.Error -> {

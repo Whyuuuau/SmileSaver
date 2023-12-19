@@ -15,7 +15,7 @@ class NewsActivity : AppCompatActivity() {
         binding = ActivityNewsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var noNews = intent.getIntExtra(EXTRA_NEWS, 0)
+        val noNews = intent.getIntExtra(EXTRA_NEWS, 0)
 
         val imageNews = binding.ivNewsImage
         val nameNews = binding.tvNewsName

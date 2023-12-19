@@ -3,15 +3,12 @@ package bangkit.android.capstone11.ui
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import bangkit.android.capstone11.R
-import bangkit.android.capstone11.data.data_local.DummyKidsData
 import bangkit.android.capstone11.databinding.ActivityAddKidsDataBinding
 
 class AddKidsDataActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAddKidsDataBinding
-    private val dummyKidsData = DummyKidsData()
     private lateinit var kidsGender: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,9 +54,9 @@ class AddKidsDataActivity : AppCompatActivity() {
     }
 
     private fun btnSaveAction() {
-        var kidsName = binding.edFullName.text.toString()
-        var kidsAge = binding.edAge.text.toString()
-        var kidsToothBrushFrequency = binding.edToothbrushFrequency.text.toString()
+        val kidsName = binding.edFullName.text.toString()
+        val kidsAge = binding.edAge.text.toString()
+        val kidsToothBrushFrequency = binding.edToothbrushFrequency.text.toString()
 
         val intent = Intent(this@AddKidsDataActivity, KidsDataActivity::class.java)
         intent.putExtra(KidsDataActivity.EXTRA_NAME, kidsName)
@@ -80,15 +77,14 @@ class AddKidsDataActivity : AppCompatActivity() {
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_checkup -> {
-                    startActivity(Intent(this@AddKidsDataActivity, KidsListActivity::class.java))
-                    return@setOnNavigationItemSelectedListener true
+                    return@setOnNavigationItemSelectedListener false
                 }
                 R.id.navigation_nearest_dentist -> {
                     startActivity(Intent(this@AddKidsDataActivity, NearestDentistActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_profile -> {
-                    //intent ke profile
+                    startActivity(Intent(this@AddKidsDataActivity, ProfileActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 else -> return@setOnNavigationItemSelectedListener false
@@ -97,7 +93,7 @@ class AddKidsDataActivity : AppCompatActivity() {
     }
 
     private fun btnBackAction() {
-        startActivity(Intent(this@AddKidsDataActivity, KidsListActivity::class.java))
+        startActivity(Intent(this@AddKidsDataActivity, HomePageActivity::class.java))
     }
 
 }

@@ -28,6 +28,7 @@ class ProfileActivity : AppCompatActivity() {
         setupView()
         setupProperty()
         profileSetup()
+        bottomBarSetup()
     }
 
     private fun setupAction() {
@@ -81,12 +82,39 @@ class ProfileActivity : AppCompatActivity() {
             show()
         }
     }
+
     override fun onBackPressed() {
         super.onBackPressed()
         val intent = Intent(this, HomePageActivity::class.java)
         startActivity(intent)
         finish()
     }
+
+        private fun bottomBarSetup() {
+            val bottomBar = binding.bottomBar
+            bottomBar.selectedItemId = R.id.navigation_profile
+            bottomBar.setOnNavigationItemSelectedListener { item ->
+                when(item.itemId) {
+                    R.id.navigation_home -> {
+                        startActivity(Intent(this@ProfileActivity, HomePageActivity::class.java))
+                        return@setOnNavigationItemSelectedListener true
+                    }
+                    R.id.navigation_checkup -> {
+                        startActivity(Intent(this@ProfileActivity, AddKidsDataActivity::class.java))
+                        return@setOnNavigationItemSelectedListener true
+                    }
+                    R.id.navigation_nearest_dentist -> {
+                        startActivity(Intent(this@ProfileActivity, NearestDentistActivity::class.java))
+                        return@setOnNavigationItemSelectedListener true
+                    }
+                    R.id.navigation_profile -> {
+                        return@setOnNavigationItemSelectedListener false
+                    }
+                    else -> return@setOnNavigationItemSelectedListener false
+                }
+            }
+        }
+
 }
 
 

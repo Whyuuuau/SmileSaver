@@ -11,9 +11,9 @@ import bangkit.android.capstone11.databinding.ActivityHomePageBinding
 import bangkit.android.capstone11.R
 import bangkit.android.capstone11.ui.preferences.UserManager
 import bangkit.android.capstone11.ui.view_model.ViewModelFactory
-import com.denzcoskun.imageslider.ImageSlider;
-import com.denzcoskun.imageslider.constants.ScaleTypes;
-import com.denzcoskun.imageslider.models.SlideModel;
+import com.denzcoskun.imageslider.ImageSlider
+import com.denzcoskun.imageslider.constants.ScaleTypes
+import com.denzcoskun.imageslider.models.SlideModel
 
 class HomePageActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomePageBinding
@@ -42,7 +42,7 @@ class HomePageActivity : AppCompatActivity() {
         //btnCheckUp
         val btnCheckUp = binding.btnStartCheckup
         btnCheckUp.setOnClickListener {
-            startActivity(Intent(this@HomePageActivity, KidsListActivity::class.java))
+            startActivity(Intent(this@HomePageActivity, AddKidsDataActivity::class.java))
         }
 
         //card news
@@ -103,7 +103,7 @@ class HomePageActivity : AppCompatActivity() {
                     return@setOnNavigationItemSelectedListener false
                 }
                 R.id.navigation_checkup -> {
-                    startActivity(Intent(this@HomePageActivity, KidsListActivity::class.java))
+                    startActivity(Intent(this@HomePageActivity, AddKidsDataActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_nearest_dentist -> {
@@ -111,7 +111,6 @@ class HomePageActivity : AppCompatActivity() {
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_profile -> {
-                    //profile
                     startActivity(Intent(this@HomePageActivity, ProfileActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }

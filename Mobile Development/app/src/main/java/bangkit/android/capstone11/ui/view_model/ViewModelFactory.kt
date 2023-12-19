@@ -19,9 +19,6 @@ class ViewModelFactory(
             modelClass.isAssignableFrom(LoginViewModel::class.java) -> {
                 LoginViewModel(repository) as T
             }
-            modelClass.isAssignableFrom(CameraViewModel::class.java) -> {
-                CameraViewModel(repository) as T
-            }
             modelClass.isAssignableFrom(UpdateViewModel::class.java) -> {
                 UpdateViewModel(repository) as T
             }

@@ -4,13 +4,10 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import bangkit.android.capstone11.data.ResultResource
-import bangkit.android.capstone11.data.Results
 import bangkit.android.capstone11.data.api_manager.ApiService
 import bangkit.android.capstone11.data.api_manager.api_response.LoginResponse
 import bangkit.android.capstone11.data.api_manager.api_response.RegisterResponse
-import bangkit.android.capstone11.data.api_manager.api_response.ScanResponse
 import bangkit.android.capstone11.data.api_manager.api_response.UpdateResponse
-import okhttp3.MultipartBody
 
 class DataRepo(
     private val apiService: ApiService
@@ -49,37 +46,6 @@ class DataRepo(
         } catch (e: Exception) {
             Log.d("Update", e.message.toString())
             emit(ResultResource.Error(e.message.toString()))
-        }
-    }
-
-//    fun loginWhy(id: String): LiveData<ResultResource<MockUser>> = liveData {
-//        val call: Call<MockUser> = apiService.loginWhy(id)
-//        call.enqueue(object : Callback<MockUser> {
-//            override fun onResponse(call: Call<MockUser>, response: Response<MockUser>) {
-//                if (response.isSuccessful) {
-//                    val user: MockUser? = response.body()
-//                    Log.d(user)
-//                } else {
-//                    Log.d(null)
-//                }
-//            }
-//
-//            override fun onFailure(call: Call<MockUser>, t: Throwable) {
-//                Log.d(null)
-//            }
-//        })
-//    }
-
-    fun postImage(
-        file: MultipartBody.Part
-    ): LiveData<Results<ScanResponse>> = liveData {
-        emit(Results.Loading)
-        try {
-            val response = apiService.postImage(file)
-            emit(Results.Success(response))
-        } catch (e: Exception) {
-            Log.d("post_image", e.message.toString())
-            emit(Results.Error(e.message.toString()))
         }
     }
 }

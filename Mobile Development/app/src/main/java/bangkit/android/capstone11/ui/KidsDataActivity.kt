@@ -17,16 +17,13 @@ class KidsDataActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //btnBack
-        binding.btnBack.setOnClickListener {navigateActivity(KidsListActivity::class.java)}
+        binding.btnBack.setOnClickListener {navigateActivity(HomePageActivity::class.java)}
 
         //cardView
         cardSetup()
 
         //btnCheckup
         binding.btnCheckup.setOnClickListener { navigateActivity(SelectActivity::class.java) }
-
-        //btnHistory
-        binding.btnHistory.setOnClickListener {navigateActivity(HistoryActivity::class.java)}
 
         //btnNearestDentist
         binding.btnNearestDentist.setOnClickListener {navigateActivity(NearestDentistActivity::class.java) }
@@ -80,7 +77,7 @@ class KidsDataActivity : AppCompatActivity() {
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_checkup -> {
-                    startActivity(Intent(this@KidsDataActivity, KidsListActivity::class.java))
+                    startActivity(Intent(this@KidsDataActivity, AddKidsDataActivity::class.java))
                     return@setOnNavigationItemSelectedListener false
                 }
                 R.id.navigation_nearest_dentist -> {
@@ -88,7 +85,7 @@ class KidsDataActivity : AppCompatActivity() {
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.navigation_profile -> {
-                    //intent ke profile
+                    startActivity(Intent(this@KidsDataActivity, ProfileActivity::class.java))
                     return@setOnNavigationItemSelectedListener true
                 }
                 else -> return@setOnNavigationItemSelectedListener false

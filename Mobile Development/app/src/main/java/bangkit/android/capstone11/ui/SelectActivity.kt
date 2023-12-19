@@ -7,8 +7,6 @@ import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
-import android.view.View
-import bangkit.android.capstone11.R
 import bangkit.android.capstone11.databinding.ActivitySelectBinding
 import bangkit.android.capstone11.ml.ModelGigi
 import org.tensorflow.lite.DataType
@@ -31,7 +29,7 @@ class SelectActivity : AppCompatActivity() {
 
         //btnback
         binding.btnBack.setOnClickListener {
-            startActivity(Intent(this@SelectActivity, KidsListActivity::class.java))
+            startActivity(Intent(this@SelectActivity, AddKidsDataActivity::class.java))
             finish()
         }
 
