@@ -40,13 +40,7 @@
             android:name=".ui.NearestDentistActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.HistoryActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.CheckUpResultActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.KidsListActivity"
             android:exported="false" />
         <activity
             android:name=".ui.KidsDataActivity"
