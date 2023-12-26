@@ -19,7 +19,7 @@ ToothScan is software that is designed to help patients with initial dental exam
 
 ## Appendix
 
-This App is still on Development Stage
+![AppBanner](https://i.ibb.co/7G5Hvvz/storyigsmilesaver.png")
 
 ## Color Reference
 
