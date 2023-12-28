@@ -30,3 +30,28 @@ ToothScan is software that is designed to help patients with initial dental exam
 | Light Blue | ![#19A7CE](https://via.placeholder.com/10/19A7CE?text=+) #19A7CE |
 | Dark Blue | ![#146C94](https://via.placeholder.com/10/146C94?text=+) #146C94 |
 
+## Team Members
+
+Tribute to Contribute Members
+
+**Machine Learning**
+
+[Azka](https://github.com/syahrulazka)
+
+[Diva](https://github.com/palsywalsyy)
+
+[Amanda](https://github.com/amandaadl)
+
+
+
+**Cloud Computing**
+
+[yudha](https://github.com/faizalyudhapermana)
+
+[Shabian](https://github.com/shabianay)
+
+**Mobile Development**
+
+[Wahyu](https://github.com/Whyuuuau)
+
+[Prihan](https://github.com/PrihandiniFaridiana)
